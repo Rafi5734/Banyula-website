@@ -1,0 +1,31 @@
+.main-sun{
+    background: #EFE2D6;
+    height: 405px;
+
+}
+.sun-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.under-wrapper2{
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.para2{
+    margin-bottom: 140px;
+}
+@media only screen and (max-width: 480px) {
+    .main-sun{
+    background: #EFE2D6;
+    position: relative;
+    top: 570px;
+    height: 775px;
+
+}
+    .sun-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+}
